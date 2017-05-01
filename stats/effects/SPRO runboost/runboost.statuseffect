@@ -1,0 +1,12 @@
+{
+  "name" : "sprorunboost",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "runboost.lua"
+  ],
+
+  "label" : "Run Boost",
+  "icon" : "/interface/statuses/haste.png"
+}

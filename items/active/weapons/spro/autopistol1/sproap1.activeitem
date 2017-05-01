@@ -1,0 +1,83 @@
+{
+  "itemName" : "sproap1",
+  "price" : 1000,
+  "inventoryIcon" : "sproap1.png",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Close-range auto pistol",
+  "shortdescription" : "S.P.R.O. Auto Pistol",
+  "tooltipKind" : "gun",
+  "level" : 6,
+  "category" : "machinePistol",
+  "itemTags" : ["weapon","ranged","machinePistol"],
+
+  "twoHanded" : false,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "sproap1.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/spro/sproflash.png"
+    },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_mp1.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.6, 0.4],
+  "muzzleOffset" : [1.7, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.04,
+    "baseDps" : 8,
+    "energyUsage" : 12,
+    "inaccuracy" : 0.06,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "sproassaultgunprojectile",
+    "projectileParameters" : {
+      "knockback" : 1
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : -2,
+        "weaponRotation" : -2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.01,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

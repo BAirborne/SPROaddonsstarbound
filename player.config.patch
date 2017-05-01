@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": { "item" : "sprochest" }
+  },{
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": { "item" : "sprolegs" }
+  },{
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": { "item" : "sprohead" }
+  },{
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": { "item" : "sproback" }
+  },{
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": { "item" : "sproassaultgun" }
+  }
+]

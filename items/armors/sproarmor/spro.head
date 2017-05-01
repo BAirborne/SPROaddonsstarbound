@@ -1,0 +1,54 @@
+{
+  "itemName" : "sprohead",
+  "price" : 1440,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "Special Purpose Recon Operations helmet",
+  "shortdescription" : "SPRO Helment",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 1.5
+    }
+  ],
+
+  "colorOptions" : [
+    { "ff7800" : "ff7800", "c65d00" : "c65d00"},
+    { "ff7800" : "838383", "c65d00" : "555555"},
+    { "ff7800" : "b5b5b5", "c65d00" : "808080"},
+    { "ff7800" : "e6e6e6", "c65d00" : "b6b6b6"},
+    { "ff7800" : "f4988c", "c65d00" : "d93a3a"},
+    { "ff7800" : "ffd495", "c65d00" : "ea9931"},
+    { "ff7800" : "ffffa7", "c65d00" : "e2c344"},
+    { "ff7800" : "b2e89d", "c65d00" : "51bd3b"},
+    { "ff7800" : "96cbe7", "c65d00" : "5588d4"},
+    { "ff7800" : "d29ce7", "c65d00" : "a451c4"},
+    { "ff7800" : "eab3db", "c65d00" : "d35eae"},
+    { "ff7800" : "ccae7c", "c65d00" : "a47844"}
+  ]
+}

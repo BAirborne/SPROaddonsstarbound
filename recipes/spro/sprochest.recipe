@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 20 },
+    { "item" : "refinedaegisalt", "count" : 20 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "sprochest", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "armours", "all" ]
+}
